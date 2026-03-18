@@ -45,6 +45,10 @@ This project has domain-specific skills available. You MUST activate the relevan
 - Use descriptive names for variables and methods. For example, `isRegisteredForDiscounts`, not `discount()`.
 - Check for existing components to reuse before writing a new one.
 
+## Git Workflow
+
+- If the user explicitly asks to directly commit and push, do it on the current branch, including `main`, without extra confirmation unless remote or auth blocks the push.
+
 ## Verification Scripts
 
 - Do not create verification scripts or tinker when tests cover that functionality and prove they work. Unit and feature tests are more important.
